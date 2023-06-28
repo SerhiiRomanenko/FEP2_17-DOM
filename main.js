@@ -47,5 +47,5 @@ function generateList(array) {
 
 
 generateList([1, 2, 3]);
-generateList([1, 2, [1.1, 1.2, 1.3, [5, 6, 7]], 3]);
+generateList([1, 2, [1.1, 1.2, 1.3], 3]);
 generateList([1, 2, [1.1, 1.2, 1.3, [3, 4, 5]], 3]);
