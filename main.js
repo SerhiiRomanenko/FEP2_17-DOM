@@ -1,18 +1,3 @@
-// function generateList(array) {
-//   let ul = document.createElement("ul");
-//   for (let element of array) {
-//     if (Array.isArray(element)) {
-//       generateList(element);
-//     } else {
-//       let li = document.createElement("li");
-//       li.textContent = element;
-//       ul.append(li)
-//     }
-//     document.body.append(ul);
-//   }
-// }
-
-
 function generateList(array) {
   let ul = document.createElement("ul");
   let innerHTML = '';
